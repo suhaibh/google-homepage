@@ -2,20 +2,20 @@ body {
 	margin: 0;
 }
 
-.header {
+header {
 	margin-top: -5px;
 }
 
-.nav {
+.header {
 	list-style: none;
 	float: right;
 }
 
-.nav_items {
+.header_item {
 	display: inline;
 }
 
-.nav_items a {
+.header_item a {
 	color: black;
 	text-decoration: none;
 	padding-left: 10px;
@@ -23,12 +23,12 @@ body {
 	font-size: small;
 }
 
-.nav_items a:hover{
+.header_item a:hover{
 	text-decoration: underline;
 }
 
 
-.nav_items:last-child{
+.header_item:last-child{
 	padding-right: 20px;
 }
 
@@ -55,6 +55,7 @@ body {
 		width: 525px;
 		height: 20px;
 		padding: 5px;
+		padding-left: 10px;
 		border-width: thin;
 		border-style: solid;
 		border-color: #d7d7d7;
@@ -90,7 +91,7 @@ body {
 
 .search_buttons input:hover {
 	border-style: ;
-	box-shadow: 0px 3px 6px #d7d7d7;
+	box-shadow: 0px 3px 4px #d7d7d7;
 }
 
 footer {
